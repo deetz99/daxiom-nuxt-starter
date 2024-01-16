@@ -1,4 +1,5 @@
 export default {
+  // header component translations
   BcrosHeader: {
     title: 'BC Registry and Online Services', // header title
     navLabel: 'Main Navigation', // <nav> aria-label

@@ -1,6 +1,6 @@
 import { it, expect } from 'vitest'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
-import MyButton from '~/components/MyButton.vue'
+import { MyButton } from '#components'
 
 it('can mount some component', async () => {
   const component = await mountSuspended(MyButton)

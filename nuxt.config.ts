@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   ssr: false,
-  devtools: { enabled: true },
+  devtools: { enabled: true }, // devtools enabled will cause the cypress-axe test to fail
   extends: ['@dwol/auth-layer-test2'],
   modules: ['@nuxt/test-utils/module'],
   imports: {
